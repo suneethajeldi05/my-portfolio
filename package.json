@@ -1,5 +1,6 @@
 {
   "name": "suneetha_portfolio",
+  "homepage": "https://suneethajeldi05.github.io/my-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -25,4 +26,13 @@
     "globals": "^15.15.0",
     "vite": "^6.2.0"
   }
+  {
+  "name": "suneetha_portfolio",
+  "homepage": "https://suneethajeldi05.github.io/my-portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  ...
+}
+
 }
