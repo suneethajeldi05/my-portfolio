@@ -1,0 +1,12 @@
+/* styles/App.css */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #121212;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.app {
+  padding: 0;
+}

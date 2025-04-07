@@ -1,0 +1,19 @@
+.contact h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+  }
+  .contact p {
+    margin-bottom: 10px;
+  }
+  .email-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007acc;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .email-link:hover {
+    background-color: #005f99;
+  }
+  

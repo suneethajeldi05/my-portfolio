@@ -1,0 +1,93 @@
+.about {
+  padding: 9rem;
+  background-color: #1a1a40;
+  color: #fff;
+  line-height: 1.9; /* Increased line height for more space between lines */
+}
+.about-text {
+  font-size: 1.3rem;
+  line-height: 2;
+  letter-spacing: 0.3px;
+  max-width: 800px;
+  margin: 1.5rem 0;
+}
+
+.about-content::after {
+  content: "";
+  display: block;
+  height: 60px;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  align-items: flex-start;
+}
+
+.about-img {
+  width: 250px;
+  height: 250px;
+  -webkit-mask-image: radial-gradient(circle, white 99%, transparent 100%);
+  mask-image: radial-gradient(circle, white 99%, transparent 100%);
+  object-fit: cover;
+}
+
+.about-content {
+  flex: 2;
+  max-width: 800px; /* Restrict width for better readability */
+  margin: 0 auto; /* Center the content */
+  font-size: 1.3rem; /* Slightly increased font size */
+  line-height: 2; /* More vertical spacing */
+  letter-spacing: 0.3px; /* Slightly wider text for a more open feel */
+}
+
+.about-content h2 {
+  font-size: 3.5rem;
+  color: orange;
+}
+
+.about-content h2 span,
+.about-content h3 span {
+  color: #ff6666;
+}
+
+.about-content h3 {
+  margin-top: 2rem;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  max-width: 700px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+}
+
+.skills span {
+  background-color: #2a2a5a;
+  padding: 0.5rem 1rem;
+  border: 1px solid #ff6666;
+  border-radius: 0.5rem;
+}
+
+.experience {
+  margin-top: 2rem; /* Slightly increased space before experience section */
+}
+
+.experience div {
+  margin-bottom: 2rem; /* More space between entries */
+}
+
+.experience h4 {
+  color: #fff;
+  font-weight: bold;
+}
+
+.experience p {
+  margin: 0.4rem 0;
+}

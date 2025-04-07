@@ -1,0 +1,85 @@
+/* Base setup */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* About Section */
+  .about {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(120deg, #0f0c29, #302b63, #24243e);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5vw;
+    overflow: hidden;
+  }
+  
+  /* Container Layout */
+  .about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  /* Image Styling */
+  .about-image img {
+    width: 350px;
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+  }
+  
+  .about-image img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Content Area */
+  .about-content {
+    color: white;
+    max-width: 600px;
+  }
+  
+  /* Gradient Heading */
+  .about-content h2 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #ff8a00, #e52e71);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
+  }
+  
+  /* Paragraph Styling */
+  .about-content p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #e0e0e0;
+    opacity: 0.95;
+  }
+  
+  /* CTA Button */
+  .about-btn {
+    margin-top: 30px;
+    padding: 14px 28px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    background: linear-gradient(to right, #e52e71, #ff8a00);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .about-btn:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, #ff8a00, #e52e71);
+  }
+  
